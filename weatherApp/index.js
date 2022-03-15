@@ -14,7 +14,7 @@
 // fetchの使い方
 
 let weather ={
-    "appKey" : "c7d657441fc71317b94e231c802db1b8",
+    "appKey" : "",
     fetchWeather: function (city) {  
         fetch("https://api.openweathermap.org/data/2.5/weather?q=" 
         + city
